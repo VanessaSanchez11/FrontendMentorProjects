@@ -92,3 +92,38 @@ p {
 .add-button:hover {
   background-color: #1a4d3a;
 }
+/* -- Responsive -- */
+
+@media only screen and (max-width: 671px) {
+    .card {
+      width: 100%;
+      display: inline-block;
+    }
+    .card img {
+      width: 100%;
+      border-top-left-radius: 13px;
+      border-top-right-radius: 13px;
+      border-bottom-left-radius: 0;
+    }
+    .card .rightCardSide {
+      width: 100%;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 13px;
+      border-bottom-left-radius: 13px;
+    }
+    h1 {
+      font-size: 30px;
+    }
+    .img-mobile {
+      display: block;
+    }
+    .img-desktop {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 1283px) {
+    .card {
+      width: 80%;
+    }
+  }
+  
