@@ -6,6 +6,7 @@
 }
 * {
   box-sizing: border-box;
+  font-family: var(--main-typography);
 }
 body {
   background-color: #f2ebe3;
@@ -15,6 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
+  height: 100%;
 }
 .card {
   margin-top: 8%;
@@ -92,12 +94,19 @@ p {
 .add-button:hover {
   background-color: #1a4d3a;
 }
+
+footer{
+  width: 100%;
+  display: block;
+}
+
 /* -- Responsive -- */
 
 @media only screen and (max-width: 671px) {
     .card {
       width: 100%;
       display: inline-block;
+      height: 100%;
     }
     .card img {
       width: 100%;
